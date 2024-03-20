@@ -1,0 +1,190 @@
+input:not([type=submit]), textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.25rem;
+    font-size: 1rem;
+    color: black;
+    border: 0;
+    outline: 0;
+    background-color: #063b01;
+    transition: 0.2s ease-in-out;
+    transition-property: background-color, box-shadow;
+}
+input:not([type=submit])::-moz-placeholder, textarea::-moz-placeholder {
+    color: rgba(22, 22, 22, 0.5);
+    opacity: 1;
+    -moz-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+}
+input:not([type=submit]):-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color: rgba(22, 22, 22, 0.5);
+    opacity: 1;
+    -ms-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+}
+input:not([type=submit])::placeholder, textarea::placeholder {
+    color: rgba(22, 22, 22, 0.5);
+    opacity: 1;
+    transition: color 0.2s ease-in-out;
+}
+input:not([type=submit]):focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+    opacity: 1;
+}
+input:not([type=submit]):focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
+    opacity: 1;
+}
+input:not([type=submit]):focus::placeholder, textarea:focus::placeholder {
+    opacity: 1;
+}
+input:not([type=submit]):-moz-placeholder-shown, textarea:-moz-placeholder-shown {
+    background-color: #063b01;
+}
+input:not([type=submit]):-ms-input-placeholder, textarea:-ms-input-placeholder {
+    background-color: #063b01;
+}
+input:not([type=submit]):placeholder-shown, textarea:placeholder-shown {
+    background-color: #fff;
+}
+input:not([type=submit]):not(:-moz-placeholder-shown), textarea:not(:-moz-placeholder-shown) {
+    background-color: #027e02;
+}
+input:not([type=submit]):not(:-ms-input-placeholder), textarea:not(:-ms-input-placeholder) {
+    background-color: #045e17;
+}
+input:not([type=submit]):not(:placeholder-shown), textarea:not(:placeholder-shown) {
+    background-color: #fff;
+}
+input:not([type=submit]):not(:focus):not(:-moz-placeholder-shown):valid, textarea:not(:focus):not(:-moz-placeholder-shown):valid {
+    box-shadow: inset 0 0 0 0.125rem #00a34a;
+}
+input:not([type=submit]):not(:focus):not(:-ms-input-placeholder):valid, textarea:not(:focus):not(:-ms-input-placeholder):valid {
+    box-shadow: inset 0 0 0 0.125rem #00a34a;
+}
+input:not([type=submit]):not(:focus):not(:placeholder-shown):valid, textarea:not(:focus):not(:placeholder-shown):valid {
+    box-shadow: inset 0 0 0 0.125rem #00a34a;
+}
+input:not([type=submit]):not(:focus):not(:-moz-placeholder-shown):invalid, textarea:not(:focus):not(:-moz-placeholder-shown):invalid {
+    box-shadow: inset 0 0 0 0.125rem #006d2a;
+}
+input:not([type=submit]):not(:focus):not(:-ms-input-placeholder):invalid, textarea:not(:focus):not(:-ms-input-placeholder):invalid {
+    box-shadow: inset 0 0 0 0.125rem #00a34a;
+}
+input:not([type=submit]):not(:focus):not(:placeholder-shown):invalid, textarea:not(:focus):not(:placeholder-shown):invalid {
+    box-shadow: inset 0 0 0 0.125rem #00a34a;
+}
+input:not([type=submit]):-moz-placeholder-shown:invalid:not(:focus), input:not([type=submit]):-moz-placeholder-shown:valid:not(:focus), textarea:-moz-placeholder-shown:invalid:not(:focus), textarea:-moz-placeholder-shown:valid:not(:focus) {
+    box-shadow: inset 0 0 0 0.125rem #063b01;
+}
+input:not([type=submit]):-ms-input-placeholder:invalid:not(:focus), input:not([type=submit]):-ms-input-placeholder:valid:not(:focus), textarea:-ms-input-placeholder:invalid:not(:focus), textarea:-ms-input-placeholder:valid:not(:focus) {
+    box-shadow: inset 0 0 0 0.125rem #063b01;
+}
+input:not([type=submit]):placeholder-shown:invalid:not(:focus), input:not([type=submit]):placeholder-shown:valid:not(:focus), input:not([type=submit]):focus, textarea:placeholder-shown:invalid:not(:focus), textarea:placeholder-shown:valid:not(:focus), textarea:focus {
+    box-shadow: inset 0 0 0 0.125rem #063b01;
+}
+input:not([type=submit]):focus, textarea:focus {
+    background-color: #fff;
+}
+form:invalid input[type=submit] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+form:valid input[type=submit] {
+    opacity: 1;
+    cursor: pointer;
+}
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    font-size: 16px;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #161616;
+    background: linear-gradient(to bottom right, rgb(18, 146, 1), #063b01) fixed;
+}
+form {
+    position: relative;
+    width: 16rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    background: #fff;
+    box-shadow: 0 0.25rem 1rem rgba(128, 128, 128, 0.25);
+    overflow: hidden;
+}
+form::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0.5rem;
+    background-color: #024b00;
+}
+fieldset {
+    border: none;
+    color: #063b01;
+    font-size: 0.75rem;
+}
+label {
+    display: block;
+    font-size: 0.75rem;
+    text-align: left;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.25rem;
+}
+input, textarea {
+    border-radius: 0.25rem;
+}
+textarea {
+    min-height: 2rem;
+    resize: vertical;
+}
+input[type=submit] {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    color: #e6e6e6;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    border: none;
+    background: linear-gradient(180deg, #0e8484, #0abbe6);
+    box-shadow: 0 0.0625rem 0.5rem rgba(128, 128, 128, 0.25);
+    transition: all 0.25s ease-in-out;
+}
+input[type=submit]:hover {
+    box-shadow: 0 0.125rem 0.5rem rgba(128, 128, 128, 0.5);
+    transform: translateY(-0.0625rem);
+}
+.qr-image {
+    padding: 10px;
+    text-align: center;
+}
+
+.container-card {
+    display: flex;
+    justify-content: center; /* Center children horizontally */
+    align-items: center; /* Center children vertically */
+    /* Ensure the container card has a defined height */
+    height: 30px; /* Example height, adjust as needed */
+}
+
+#logo {
+    background-image: url('../images/logo.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 31%;
+    height: 70px;
+    margin: 10px 10px 10px 10px;
+    color: #FFFFFF; /* Assuming white text; change as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem; /* Example size, adjust as needed */
+}
