@@ -105,7 +105,7 @@ body {
     align-items: center;
     justify-content: center;
     font-family: sans-serif;
-    color: #161616;
+    color: #f54500;
     background: linear-gradient(to bottom right, rgb(255, 166, 0), #f88d00) fixed;
 }
 form {

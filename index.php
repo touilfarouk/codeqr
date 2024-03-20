@@ -160,7 +160,7 @@ if (isset($_POST['submit'])) {
             background-color: #333; /* Dark background */
             padding: 20px;
             border-radius: 10px;
-            background-color:#013b01;
+            background-color:#ca3900;
         }
         h2 {
             color: white;
@@ -272,12 +272,12 @@ if (isset($_POST['submit'])) {
                         <label for="objet">Objet</label>
                         <textarea class="form-control" name="objet" rows="3" placeholder="Entrez votre objet" id="objet"><?php echo @$objet; ?></textarea>
                     </div>
-                    <button type="submit" class="btn btn-success" name="submit">Générer le code QR</button>
+                    <button type="submit" class="btn btn-warning" name="submit">Générer le code QR</button>
                 </form>
 
             </div>
             <div class="col-md-6">
- <button style="float:right" type="button" class="btn btn-primary mt-3 right" data-toggle="modal" data-target="#recordsModal">Liste des enregistrements</button>
+ <button style="float:right" type="button" class="btn btn-warning mt-3 right" data-toggle="modal" data-target="#recordsModal">Liste des enregistrements</button>
  </div>
             <!-- QR Code et Boutons -->
             <?php if (isset($ref_doc_img)) : ?>
