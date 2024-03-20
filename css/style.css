@@ -7,7 +7,7 @@ input:not([type=submit]), textarea {
     color: black;
     border: 0;
     outline: 0;
-    background-color: #063b01;
+    background-color: #eb7d00;
     transition: 0.2s ease-in-out;
     transition-property: background-color, box-shadow;
 }
@@ -38,49 +38,49 @@ input:not([type=submit]):focus::placeholder, textarea:focus::placeholder {
     opacity: 1;
 }
 input:not([type=submit]):-moz-placeholder-shown, textarea:-moz-placeholder-shown {
-    background-color: #063b01;
+    background-color: #c75000;
 }
 input:not([type=submit]):-ms-input-placeholder, textarea:-ms-input-placeholder {
-    background-color: #063b01;
+    background-color: #df6400;
 }
 input:not([type=submit]):placeholder-shown, textarea:placeholder-shown {
     background-color: #fff;
 }
 input:not([type=submit]):not(:-moz-placeholder-shown), textarea:not(:-moz-placeholder-shown) {
-    background-color: #027e02;
+    background-color: #f38201;
 }
 input:not([type=submit]):not(:-ms-input-placeholder), textarea:not(:-ms-input-placeholder) {
-    background-color: #045e17;
+    background-color: #d16500;
 }
 input:not([type=submit]):not(:placeholder-shown), textarea:not(:placeholder-shown) {
     background-color: #fff;
 }
 input:not([type=submit]):not(:focus):not(:-moz-placeholder-shown):valid, textarea:not(:focus):not(:-moz-placeholder-shown):valid {
-    box-shadow: inset 0 0 0 0.125rem #00a34a;
+    box-shadow: inset 0 0 0 0.125rem #d16500;
 }
 input:not([type=submit]):not(:focus):not(:-ms-input-placeholder):valid, textarea:not(:focus):not(:-ms-input-placeholder):valid {
-    box-shadow: inset 0 0 0 0.125rem #00a34a;
+    box-shadow: inset 0 0 0 0.125rem #d16500;
 }
 input:not([type=submit]):not(:focus):not(:placeholder-shown):valid, textarea:not(:focus):not(:placeholder-shown):valid {
-    box-shadow: inset 0 0 0 0.125rem #00a34a;
+    box-shadow: inset 0 0 0 0.125rem #d16500;
 }
 input:not([type=submit]):not(:focus):not(:-moz-placeholder-shown):invalid, textarea:not(:focus):not(:-moz-placeholder-shown):invalid {
-    box-shadow: inset 0 0 0 0.125rem #006d2a;
+    box-shadow: inset 0 0 0 0.125rem #e07904;
 }
 input:not([type=submit]):not(:focus):not(:-ms-input-placeholder):invalid, textarea:not(:focus):not(:-ms-input-placeholder):invalid {
-    box-shadow: inset 0 0 0 0.125rem #00a34a;
+    box-shadow: inset 0 0 0 0.125rem #d16500;
 }
 input:not([type=submit]):not(:focus):not(:placeholder-shown):invalid, textarea:not(:focus):not(:placeholder-shown):invalid {
-    box-shadow: inset 0 0 0 0.125rem #00a34a;
+    box-shadow: inset 0 0 0 0.125rem #d16500;
 }
 input:not([type=submit]):-moz-placeholder-shown:invalid:not(:focus), input:not([type=submit]):-moz-placeholder-shown:valid:not(:focus), textarea:-moz-placeholder-shown:invalid:not(:focus), textarea:-moz-placeholder-shown:valid:not(:focus) {
-    box-shadow: inset 0 0 0 0.125rem #063b01;
+    box-shadow: inset 0 0 0 0.125rem #ec5f00;
 }
 input:not([type=submit]):-ms-input-placeholder:invalid:not(:focus), input:not([type=submit]):-ms-input-placeholder:valid:not(:focus), textarea:-ms-input-placeholder:invalid:not(:focus), textarea:-ms-input-placeholder:valid:not(:focus) {
-    box-shadow: inset 0 0 0 0.125rem #063b01;
+    box-shadow: inset 0 0 0 0.125rem #ff8800;
 }
 input:not([type=submit]):placeholder-shown:invalid:not(:focus), input:not([type=submit]):placeholder-shown:valid:not(:focus), input:not([type=submit]):focus, textarea:placeholder-shown:invalid:not(:focus), textarea:placeholder-shown:valid:not(:focus), textarea:focus {
-    box-shadow: inset 0 0 0 0.125rem #063b01;
+    box-shadow: inset 0 0 0 0.125rem #ff7b00;
 }
 input:not([type=submit]):focus, textarea:focus {
     background-color: #fff;
@@ -106,7 +106,7 @@ body {
     justify-content: center;
     font-family: sans-serif;
     color: #161616;
-    background: linear-gradient(to bottom right, rgb(18, 146, 1), #063b01) fixed;
+    background: linear-gradient(to bottom right, rgb(255, 166, 0), #f88d00) fixed;
 }
 form {
     position: relative;
@@ -126,7 +126,7 @@ form::before {
     top: 0;
     width: 100%;
     height: 0.5rem;
-    background-color: #024b00;
+    background-color: #e25b02;
 }
 fieldset {
     border: none;
