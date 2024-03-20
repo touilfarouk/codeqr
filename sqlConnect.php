@@ -3,7 +3,7 @@
 
 
 $servername = "localhost";
-$dbname = "attestation";
+$dbname = "docs";
 $username = "root";
 $password = "";
 try

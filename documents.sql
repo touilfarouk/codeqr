@@ -39,12 +39,7 @@ CREATE TABLE `documents` (
 -- Dumping data for table `documents`
 --
 
-INSERT INTO `documents` (`id`, `product`, `subject`, `body`, `password`) VALUES
-(1, 'sldklk', 'lksldk', 'lsddksldk', ''),
-(2, 'sldklk', 'lksldk', 'lsddksldk', 'znzLC5EhJw'),
-(3, 'test', 'test', 'test', 'ikigMar3qR'),
-(4, 'tere', 'fdf', 'fdf', 'kAx9jcIPhl'),
-(5, 'dfdmlk', 'mlkdmlfk', 'mlfkdf', '9u3M29e11g');
+
 
 --
 -- Indexes for dumped tables
